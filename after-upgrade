@@ -1,0 +1,20 @@
+#!/bin/bash/
+
+sudo dnf install remove-retired-packages && remove-retired-packages #Clean-up retired package
+sudo dnf repoquery --unsatisfied #packages with broken dependencies
+sudo dnf repoquery --duplicates #packages with multiple versions installed
+sudo dnf distro-sync --allowerasing #for resolve dependency and remove packages with broken dependencies
+
+old_kernels=($(dnf repoquery --installonly --latest-limit=-1 -q))
+if [ "${#old_kernels[@]}" -eq 0 ]; then
+    notify-send "No old kernels found"
+    exit 0
+fi
+
+if ! dnf remove "${old_kernels[@]}"; then
+    notify-send "Failed to remove old kernels"
+    exit 1
+fi
+
+echo "Removed old kernels"
+exit 0
