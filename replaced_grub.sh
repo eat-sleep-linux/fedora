@@ -2,7 +2,6 @@
 # Copyright (c) Eat! Sleep! Linux Authors
 # Script based on https://kowalski7cc.xyz/blog/systemd-boot-fedora-32 and https://github.com/peterwu/dotfiles/blob/master/install/fedora.org#replace-grub-with-systemd-boot
 
-
 set -euxo pipefail
 
 mkdir /efi
