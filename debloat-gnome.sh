@@ -3,7 +3,7 @@
 # This script delete unused packages. Be vigilant and read carefully what he wants to remove
 
 sudo dnf remove abrt \
-	f37-backgrounds-gnome \
+	f38-backgrounds-gnome \
 	nm-connection-editor \
 	mozilla-filesystem \
 	chrome-gnome-shell \
