@@ -2,99 +2,97 @@
 
 # This script delete unused packages. Be vigilant and read carefully what he wants to remove
 
-sudo dnf remove abrt \
-	f38-backgrounds-gnome \
-	nm-connection-editor \
-	mozilla-filesystem \
-	chrome-gnome-shell \
-	quota \
-	quota-devel \
-	nmap-ncat \
-	virtualbox-guest-additions \
-	spice-vdagent \
-	nfs-utils \
-	teamd \
-	tcpdump \
-	sgpio \
-	ImageMagick* \
-	adcli \
-	libreoffice* \
-	lvm2 \
-	qemu-guest-agent \
-	hyperv* \
-	gnome-classic* \
-	baobab \
-	*kkc* \
-	*zhuyin* \
-	*pinyin* \
-	*evince* \
-	*yelp* \
-	fedora-bookmarks \
-	fedora-chromium-config \
-	fedora-workstation-backgrounds \
-	gnome-tour \
-	gnome-themes-extra \
-	gnome-shell-extension-background-logo \
-	gnome-screenshot \
-	gnome-remote-desktop \
-	gnome-font-viewer \
-	gnome-calculator \
-	gnome-backgrounds \
-	NetworkManager-pptp-gnome \
-	NetworkManager-ssh-gnome \
-	NetworkManager-openconnect-gnome \
-	NetworkManager-openvpn-gnome \
-	NetworkManager-vpnc-gnome \
-	podman* \
-	*libvirt* \
-	open-vm* \
-	speech* \
-	sos \
-	totem \
-	gnome-characters \
-	firefox \
-	eog \
-	openssh-server \
-	xorg-x11-drv-vmware \
-	xorg-x11-drv-amdgpu \
-	yajl \
-	words \
-	ibus-hangul \
-	openh264 \
-	realmd \
-	rsync \
-	net-snmp-libs \
-	net-tools \
-	traceroute \
-	mtr \
-	geolite2* \
-	gnome-boxes \
-	gnome-disk-utility \
-	cheese \
-	gnome-contacts \
-	rhythmbox \
-	gnome-screenshot \
-	gnome-maps \
-	gnome-weather \
-	gnome-logs \
-	ibus-typing-booster \
-	*m17n* \
-	gnome-clocks \
-	gnome-color-manager \
-	mlocate \
-	cyrus-sasl-plain \
-	cyrus-sasl-gssapi \
-	sssd* \
-	gnome-user* \
-	dos2unix \
-	kpartx \
-	rng-tools \
-	ppp* \
-	thermald \
-	gnome-shell-extension-horizontal-workspaces \
-	gnome-shell-extension-launch-new-instance \
-	gnome-shell-extension-window-list \
-	sane-airscan \
-	simple-scan \
-	*hangul* \
-	*perl* 
+sudo dnf remove ImageMagick* \
+NetworkManager-openconnect-gnome \
+NetworkManager-openvpn-gnome \
+NetworkManager-pptp-gnome \
+NetworkManager-ssh-gnome \
+NetworkManager-vpnc-gnome \
+abrt \
+adcli \
+baobab \
+cheese \
+chrome-gnome-shell \
+cyrus-sasl-gssapi \
+cyrus-sasl-plain \
+dos2unix \
+eog \
+f38-backgrounds-gnome \
+fedora-bookmarks \
+fedora-chromium-config \
+fedora-workstation-backgrounds \
+firefox \
+geolite2* \
+gnome-backgrounds \
+gnome-boxes \
+gnome-characters \
+gnome-classic* \
+gnome-clocks \
+gnome-color-manager \
+gnome-contacts \
+gnome-disk-utility \
+gnome-font-viewer \
+gnome-logs \
+gnome-maps \
+gnome-remote-desktop \
+gnome-screenshot \
+gnome-screenshot \
+gnome-shell-extension-background-logo \
+gnome-shell-extension-horizontal-workspaces \
+gnome-shell-extension-launch-new-instance \
+gnome-shell-extension-window-list \
+gnome-themes-extra \
+gnome-tour \
+gnome-user* \
+gnome-weather \
+hyperv* \
+ibus-hangul \
+ibus-typing-booster \
+kpartx \
+libreoffice* \
+lvm2 \
+mlocate \
+mozilla-filesystem \
+mtr \
+net-snmp-libs \
+net-tools \
+nfs-utils \
+nmap-ncat \
+nm-connection-editor \
+openssh-server \
+open-vm* \
+podman* \
+ppp* \
+qemu-guest-agent \
+quota \
+quota-devel \
+realmd \
+rhythmbox \
+rng-tools \
+rsync \
+sane-airscan \
+sgpio \
+simple-scan \
+sos \
+speech* \
+spice-vdagent \
+sssd* \
+tcpdump \
+teamd \
+thermald \
+totem \
+traceroute \
+virtualbox-guest-additions \
+words \
+xorg-x11-drv-amdgpu \
+xorg-x11-drv-vmware \
+yajl \
+*evince* \
+*hangul* \
+*kkc* \
+*libvirt* \
+*m17n* \
+*perl* \
+*pinyin* \
+*yelp* \
+*zhuyin* \
