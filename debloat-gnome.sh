@@ -16,20 +16,19 @@ sudo dnf remove abrt \
 	teamd \
 	tcpdump \
 	sgpio \
-	ImageMagick \
+	ImageMagick* \
 	adcli \
-	libreoffice \
+	libreoffice* \
 	lvm2 \
 	qemu-guest-agent \
-	hyperv \
-	gnome-classic-session \
+	hyperv* \
+	gnome-classic* \
 	baobab \
-	libkkc-common \
-	libzhuyin \
-	libpinyin \
-	evince \
-	yelp \
-	ModemManager \
+	*kkc* \
+	*zhuyin* \
+	*pinyin* \
+	*evince* \
+	*yelp* \
 	fedora-bookmarks \
 	fedora-chromium-config \
 	fedora-workstation-backgrounds \
@@ -46,10 +45,10 @@ sudo dnf remove abrt \
 	NetworkManager-openconnect-gnome \
 	NetworkManager-openvpn-gnome \
 	NetworkManager-vpnc-gnome \
-	podman \
-	libvirt \
-	open-vm-tools \
-	speech-tools \
+	podman* \
+	*libvirt* \
+	open-vm* \
+	speech* \
 	sos \
 	totem \
 	gnome-characters \
@@ -61,8 +60,6 @@ sudo dnf remove abrt \
 	yajl \
 	words \
 	ibus-hangul \
-	fcitx-hangul \
-	fcitx5-hangul \
 	openh264 \
 	realmd \
 	rsync \
@@ -70,8 +67,7 @@ sudo dnf remove abrt \
 	net-tools \
 	traceroute \
 	mtr \
-	geolite2-city \
-	geolite2-country \
+	geolite2* \
 	gnome-boxes \
 	gnome-disk-utility \
 	cheese \
@@ -82,25 +78,23 @@ sudo dnf remove abrt \
 	gnome-weather \
 	gnome-logs \
 	ibus-typing-booster \
-	m17n-db \
-	m17n-lib \
+	*m17n* \
 	gnome-clocks \
 	gnome-color-manager \
 	mlocate \
 	cyrus-sasl-plain \
 	cyrus-sasl-gssapi \
-	sssd-client \
-	sssd-common \
-	sssd-kcm \
-	gnome-user-docs \
-	gnome-user-share \
+	sssd* \
+	gnome-user* \
 	dos2unix \
 	kpartx \
 	rng-tools \
-	ppp \
+	ppp* \
 	thermald \
 	gnome-shell-extension-horizontal-workspaces \
 	gnome-shell-extension-launch-new-instance \
 	gnome-shell-extension-window-list \
 	sane-airscan \
-	simple-scan
+	simple-scan \
+	*hangul* \
+	*perl* 
