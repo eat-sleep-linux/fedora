@@ -17,7 +17,7 @@ cyrus-sasl-gssapi \
 cyrus-sasl-plain \
 dos2unix \
 eog \
-f38-backgrounds-gnome \
+f39-backgrounds-gnome \
 fedora-bookmarks \
 fedora-chromium-config \
 fedora-workstation-backgrounds \
@@ -92,7 +92,7 @@ yajl \
 *kkc* \
 *libvirt* \
 *m17n* \
-*perl* \
+*perl \
 *pinyin* \
 *yelp* \
 *zhuyin* \
