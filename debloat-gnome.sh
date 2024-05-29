@@ -95,4 +95,4 @@ yajl \
 *perl \
 *pinyin* \
 *yelp* \
-*zhuyin* \
+*zhuyin* 
