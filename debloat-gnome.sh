@@ -63,6 +63,8 @@ openssh-server \
 open-vm* \
 podman* \
 ppp* \
+gnome-system-monitor \
+malcontent-control \
 qemu-guest-agent \
 quota \
 quota-devel \
