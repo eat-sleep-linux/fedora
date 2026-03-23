@@ -5,8 +5,6 @@
 # Script based on https://kowalski7cc.xyz/blog/systemd-boot-fedora-32 and https://github.com/peterwu/dotfiles/blob/master/install/fedora.org#replace-grub-with-systemd-boot
 # Made by Georgii Bogdanov | gbog@proton.me
 
-### DON'T USE THIS SCRIPT. IT'S BROKE YOUR SYSTEM. WE INVESTIGATE ISSUES
-
 set -euxo pipefail
 
 sudo mkdir /efi
