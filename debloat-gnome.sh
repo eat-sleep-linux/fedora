@@ -17,7 +17,7 @@ cyrus-sasl-gssapi \
 cyrus-sasl-plain \
 dos2unix \
 eog \
-f39-backgrounds-gnome \
+f43-backgrounds-gnome \
 fedora-bookmarks \
 fedora-chromium-config \
 fedora-workstation-backgrounds \
@@ -26,6 +26,7 @@ geolite2* \
 gnome-backgrounds \
 gnome-boxes \
 gnome-characters \
+gnome-connections \
 gnome-classic* \
 gnome-clocks \
 gnome-color-manager \
@@ -43,7 +44,6 @@ gnome-shell-extension-launch-new-instance \
 gnome-shell-extension-window-list \
 gnome-themes-extra \
 gnome-tour \
-gnome-user* \
 gnome-weather \
 hyperv* \
 ibus-hangul \
@@ -51,6 +51,7 @@ ibus-typing-booster \
 kpartx \
 libreoffice* \
 lvm2 \
+mediawriter \
 mlocate \
 mozilla-filesystem \
 mtr \
@@ -75,6 +76,7 @@ rsync \
 sane-airscan \
 sgpio \
 simple-scan \
+snapshot \
 sos \
 speech* \
 spice-vdagent \
